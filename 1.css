@@ -1,0 +1,35 @@
+*{margin: 0; padding: 0;} 
+.search-box-list {
+    float: left;
+}
+
+.main-serach {
+    padding-top: 20px;
+}
+ul.menu-child  {
+    position: relative;
+}
+.main-menu{
+	position: relative;
+}
+.nav-menu{
+	position: absolute;
+	top:0px;
+}
+.submenu-wrapper {
+    position: absolute;
+    left: 181px;
+    height: 200px;
+    width: 500px;
+    background: rebeccapurple;
+    top: 0;
+    display: none;
+    transition: 0.5s;
+    z-index: 90;
+}
+ul.menu-child li.submenu:hover .submenu-wrapper{
+display:block;
+}
+.slider {
+    margin-left: 200px;
+}
